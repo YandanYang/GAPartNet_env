@@ -69,9 +69,9 @@ make install
 make install-pip-package
 ```
 
-You may need to install some python packages when the system does not find related package, e.g.:
+If you get ModuleNotFoundError like: No module named ‘yapf’
 ```
-make install-pip-package
+pip install yapf
 ```
 
 Test Open3D installation
