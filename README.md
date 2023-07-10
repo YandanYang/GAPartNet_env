@@ -27,13 +27,11 @@ install dependences
 ```
 util/install_deps_ubuntu.sh
 ```
-build:
+prepare required files and build:
 ```
+mkdir open3d_install
 mkdir build
 cd build
-```
-
-```
 git clone https://github.com/isl-org/Open3D-ML.git
 ```
 
